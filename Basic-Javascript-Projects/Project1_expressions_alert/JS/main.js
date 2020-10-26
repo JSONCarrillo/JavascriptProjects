@@ -8,6 +8,8 @@ document.write(a);
 const name = 'Jason';
 
 let greetName = 'Hello ' + name;
+let greetName = greetName.fontcolor("Green")
+
 
 document.write(greetName + "<br><br>");
 
@@ -18,6 +20,8 @@ document.write("I, Giorno Giovana, " + " have a dream!<br><br>");
 
 let dioStandcommand = "Za Worldo! " + "Stop Time!"
 
-document.write(dioStandcommand)
+document.write(dioStandcommand);
 
 const joestars = greatGreatgrandfather = "Jonathan", grandFather = "George", Father = "Joseph", son = "Josuke", grandson = "Jotaro"
+
+document.write(son);
