@@ -3,12 +3,13 @@ window.alert('Greetings and salutations!');
 document.write('Hello there!');
 
 var a = 'This is a string!';
+var a = a.fontcolor("red")
 document.write(a);
 
-const name = 'Jason';
+var name = 'Jason';
 
-let greetName = 'Hello ' + name;
-let greetName = greetName.fontcolor("Green")
+var greetName = 'Hello ' + name;
+var greetName = greetName.fontcolor("blue")
 
 
 document.write(greetName + "<br><br>");
@@ -18,10 +19,12 @@ document.write("Obi Wan said \"Hello there!\"<br> \"General Kenobi!\" Grevious r
 
 document.write("I, Giorno Giovana, " + " have a dream!<br><br>");
 
-let dioStandcommand = "Za Worldo! " + "Stop Time!"
+var dioStandcommand = "Za Worldo! " + "Stop Time!"
+var dioStandcommand = dioStandcommand.fontcolor("orange")
 
 document.write(dioStandcommand);
 
-const joestars = greatGreatgrandfather = "Jonathan", grandFather = "George", Father = "Joseph", son = "Josuke", grandson = "Jotaro"
+var joestars = greatGreatgrandfather = "Jonathan", grandFather = "George", Father = "Joseph", son = "Josuke", grandson = "Jotaro"
+var son = son.fontcolor("green")
 
 document.write(son);
