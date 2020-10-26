@@ -19,3 +19,5 @@ document.write("I, Giorno Giovana, " + " have a dream!<br><br>");
 let dioStandcommand = "Za Worldo! " + "Stop Time!"
 
 document.write(dioStandcommand)
+
+const joestars = greatGreatgrandfather = "Jonathan", grandFather = "George", Father = "Joseph", son = "Josuke", grandson = "Jotaro"
