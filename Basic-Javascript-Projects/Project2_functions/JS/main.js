@@ -1,3 +1,4 @@
+//function that adds numbers
 function addNumber() {
     var num1 = 12;
     var num2 = 48;
@@ -5,6 +6,7 @@ function addNumber() {
     document.getElementById('addAnswer').innerHTML = answer;
 }
 
+//function that adds 2 strings together
 function concatenate() {
     var sentence = 'Hello there! ';
     sentence += 'General Kenobi!';
