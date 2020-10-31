@@ -53,6 +53,7 @@ function secondFunction() {
         robotOne.robotYear + ". And my model number is " + robotOne.robotModel;
 }
 
+// Assignment 4
 function multFunction() {
     document.getElementById('nestedFunction').innerHTML = multTwo()
     function multTwo() {
