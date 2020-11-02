@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS/main.js" async></script>
+</head>
+
+<body>
+    <h1>While Loop</h1>
+    <p id="loop"></p>
+    <button onclick="callLoop()">Click Here!</button>
+
+    <h1>Challenge</h1>
+    <p>'Kept you waiting, huh?'</p>
+    <p id="stringLength"></p>
+    <button onclick="stringLength()">Get string length!</button>
+
+    <h1>For Loop</h1>
+    <p id="instrument-list"></p>
+    <button onclick="forLoop()">Click here</button>
+
+    <h1>Array</h1>
+    <p id="array"></p>
+    <button onclick="arrayFunct()">Click Here</button>
+
+    <h1>Constant</h1>
+    <p id="constant"></p>
+    <button onclick="constFunct()">Click Here</button>
+
+    <h1>Return Challenge</h1>
+    <p>What number would you like to factorialize?</p>
+    <p id="return"></p>
+    <input type="text" id="factorialize" placeholder="Ex:'5'">
+    <!--button calls the return function (returnFunct) setting its argument to be the input element and ensuring 
+    its both an integer and it recieves the value of that number-->
+    <button onclick="returnFunct(parseInt(document.getElementById('factorialize').value))">Click here</button>
+
+    <h1>Object</h1>
+    <p id="object"></p>
+
+    <h1>Break Challenge</h1>
+    <p id="break"></p>
+</body>
+
+</html>
