@@ -102,7 +102,7 @@ function checkWinConditions() {
 
     //this condition checks for a tie by which it then plays the respective sound effect
     //it then calls the reset game function
-    else if (selectedSquares >= 9) {
+    else if (selectedSquares.length >= 9) {
         audio('./media/tie.mp3');
 
         setTimeout(function () { resetGame(); }, 1000)
@@ -174,7 +174,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
 
         if (x1 <= x2 && y1 >= y2) {
             if (x < x2) { x += 10; }
-            if (y > y2) { x -= 10; }
+            if (y > y2) { y -= 10; }
             if (x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop) }
         }
     }
