@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Javascript/Javascript_2.js"></script>
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <h3>Create an Account</h3>
+    <form method="POST" name="myForm" action="" onsubmit="return formValidate()">
+        <input type="text" name="user" id="user" placeholder="Username">
+        <p class="error" style="color: red;"></p>
+        <br>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <p class="error" style="color: red;"></p>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

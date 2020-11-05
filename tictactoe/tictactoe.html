@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champions TTT</title>
+    <link rel="stylesheet" href="Css/game.css">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="Javascript/tictactoe.js" async></script>
+</head>
+
+<body id="body">
+    <div class="center-container">
+        <h1>Champion's Tic Tac Toe</h1>
+        <canvas id="win-lines" width="608" height="608"></canvas>
+        <table>
+            <tr>
+                <td id="0" onclick="PlaceXOrO('0')"></td>
+                <td id="1" onclick="PlaceXOrO('1')"></td>
+                <td id="2" onclick="PlaceXOrO('2')"></td>
+            </tr>
+            <tr>
+                <td id="3" onclick="PlaceXOrO('3')"></td>
+                <td id="4" onclick="PlaceXOrO('4')"></td>
+                <td id="5" onclick="PlaceXOrO('5')"></td>
+            </tr>
+            <tr>
+                <td id="6" onclick="PlaceXOrO('6')"></td>
+                <td id="7" onclick="PlaceXOrO('7')"></td>
+                <td id="8" onclick="PlaceXOrO('8')"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
