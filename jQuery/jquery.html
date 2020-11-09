@@ -8,7 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <script>
+    //targets body
     $("body").ready(function () {
+        //appends the html to write out the given html code written
         $("html").append(
             "<body>\
                 <div id='container'>\
@@ -21,7 +23,9 @@
                 </div>\
             </body>"
         )
+        //targets the css for p element id "2" and makes it red 
         $("#2").css({ "color": "red" })
+        //targets p element id 3, when clicked h1 is hidden
         $('#3').click(function () {
             $('h1').hide();
         })
